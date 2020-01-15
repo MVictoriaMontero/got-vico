@@ -1,0 +1,13 @@
+.c-translate-flags{
+    
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+
+    &__item{
+        width: 64px;
+        height: 64px;
+        object-fit: contain;
+    }
+}
