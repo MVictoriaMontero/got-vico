@@ -1,0 +1,26 @@
+{
+    "inicio": {
+        "titulo": "Juego de Tronos "
+    },
+    "navbar": {
+        "item-1": "Personajes",
+        "item-2": "Casas",
+        "item-3": "Cronología"
+    },
+    "detail-character": {
+        "casa": "Casa",
+        "alianza": "Alianzas",
+        "apariciones": "Apariciones",
+        "padre": "Padre",
+        "descendientes": "Descendientes",
+        "titulos": "Titulos"
+    },
+    "detail-house": {
+        "lema": "Lema",
+        "sede": "Sede",
+        "region": "Region",
+        "alianza": "Alianza",
+        "religion": "Religiones",
+        "fundacion": "Fundacion"
+    }
+}

@@ -1,0 +1,53 @@
+<div class="o-main b-detail-house" *ngIf="house">
+    <div class="container" >
+                <div class="b-detail-house_center">
+                        <figure class="b-detail-house__figure">     
+                                <img class="b-detail-house__picture" src="{{ house.logoURL }}" alt="{{house.name}}"> 
+                                <span class="b-detail-house__name b-detail-house__label">{{ house.name }}</span>
+                        </figure>
+                </div>
+                <div class="b-detail-house__info">
+                <div class="row">
+                        <div class="col-2" >
+                                <span class=" b-detail-house__label">{{ 'detail-house.lema' | translate }}</span>    
+                                <div>
+                                {{house.words}}
+                                </div>
+                        </div>
+                        <div class="col-2" >
+                                <span class=" b-detail-house__label">{{ 'detail-house.sede' | translate }}</span>    
+                                <div>
+                                {{house.seat}}
+                                </div>
+                        </div>
+                        <div class="col-2" >
+                                <span class=" b-detail-house__label">{{ 'detail-house.region' | translate }}</span>
+                                <div>
+                                {{house.region}}
+                                </div> 
+                        </div>
+                        <div class="col-2" >
+                                <span class=" b-detail-house__label">{{ 'detail-house.alianza' | translate }}</span>
+                                <div *ngFor="let alianza of house.allegiance">
+                                {{alianza}}
+                                </div>     
+                                
+                        </div>
+                        <div class="col-2" >
+                                <span class=" b-detail-house__label">{{ 'detail-house.religion' | translate }}</span>
+                                <div *ngFor="let religiones of house.religion">
+                                        {{religiones}}
+                                </div>
+                                
+                        </div>
+                        <div class="col-2" >
+                                <span class=" b-detail-house__label">{{ 'detail-house.fundacion' | translate }}</span>
+                                <div>
+                                        {{house.createdAt}}
+                                </div>
+                                        
+                        </div>
+                </div>
+                </div>
+    </div>
+</div>

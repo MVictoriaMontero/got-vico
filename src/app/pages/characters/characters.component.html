@@ -1,0 +1,23 @@
+<!--Loading-->
+<!--<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>-->
+<div class="container">
+    <ngx-simplebar class="o-main"  id="scroll">
+            <div class="b-gallery">
+                <div class="row">
+                    <ng-container *ngFor="let character of characters">
+                    
+                    <div *ngIf="character.image" class="col-2">
+                        <a [routerLink]="['/characters', character.name]" >
+                                <figure class="b-gallery__figure">
+                                    <img class="b-gallery__picture" src="{{ character.image }}" alt="">
+                                    <span class="b-gallery__name">{{ character.name }}</span>
+                                </figure>
+                                    
+                        </a>
+                    </div>
+                </ng-container>
+                </div>
+        </div>
+    </ngx-simplebar> 
+
+</div>

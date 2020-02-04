@@ -1,0 +1,26 @@
+{
+    "inicio": {
+        "titulo": "Game of Thrones "
+    },
+    "navbar": {
+        "item-1": "Characters",
+        "item-2": "Houses",
+        "item-3": "Chronology"
+    },
+    "detail-character": {
+        "casa": "House",
+        "alianza": "Allegiances",
+        "apariciones": "Appearances",
+        "padre": "Father",
+        "descendientes": "Siblings",
+        "titulos": "Titles"
+    },
+    "detail-house": {
+        "lema": "Lema",
+        "sede": "Seat",
+        "region": "Region",
+        "alianza": "Allegiance",
+        "religion": "Religion",
+        "fundacion": "Created At"
+    }
+}

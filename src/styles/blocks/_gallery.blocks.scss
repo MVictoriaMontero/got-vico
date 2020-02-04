@@ -1,0 +1,49 @@
+.b-gallery{
+    &__link {
+        text-decoration: none;
+    }
+    &__name{
+        position: absolute;
+        transition: opacity 0,25s ease-in;
+        color: #ffffff;
+        font-family: GameofThrones;
+        font-size: 14px;
+        height: 30px;
+        width: 100%;
+        left: 0;
+        bottom: 0;
+        opacity: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgba(0, 0, 0, 0.5);
+        &--houses{
+            display: inline;
+            font-size: 10px;
+            height: 30px;
+            opacity: 1;
+        }
+    }
+    &__figure{
+        height: 210px;
+        margin: 0 0 68px 0;
+        overflow: hidden;
+        position: relative;
+        &:hover{
+            .b-gallery__name{
+                opacity: 1;
+            }
+        }
+        &--houses{
+            height: 240px;
+            margin: 0 0 68px 0;
+            overflow: hidden;
+            position: relative;
+        }
+    }
+    &__picture{
+        width: 100%;
+    }
+
+    
+}

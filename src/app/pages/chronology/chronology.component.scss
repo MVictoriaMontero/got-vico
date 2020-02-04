@@ -1,0 +1,14 @@
+.o-main{
+    
+
+    &__container{
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__container img{
+        top: 100px;
+        cursor: pointer;
+    }
+}

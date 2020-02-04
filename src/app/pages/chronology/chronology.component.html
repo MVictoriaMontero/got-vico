@@ -1,0 +1,12 @@
+<div class="o-main">
+   <div class="container">
+       <img src="../../../assets/images/arrow_down.png" alt="Ordenar timeline">
+       <div *ngFor="let character of characters">
+          <div *ngIf="character.age">
+              Nombre: {{character.name}}
+                Edad: {{character.age.age}}
+                <img src="{{character.image}}" alt="character.name">
+          </div>
+       </div>
+   </div>
+</div>

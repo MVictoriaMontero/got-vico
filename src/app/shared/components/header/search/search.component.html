@@ -1,0 +1,5 @@
+<div class="c-search" [formGroup]="form">
+        <span class="i-home"></span>
+        <input formControlName="search" placeholder="Busqueda" id="buscador" (keyup.enter)="searchData($event.target.value)">
+</div>
+
