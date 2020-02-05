@@ -1,7 +1,16 @@
-c-search{
+.c-search{
+    border-bottom: 1px solid #ffffff;
+    width: 500px;
     &__input{
-        border-bottom: 1px solid #ffffff !important;
-        
+        border: none !important;
+        background-color: transparent !important;
+        height: 30px;
+        width: 200px;
+        color: #ffffff;
+        font-size: 15px;
+        :focus{
+           outline: none !important;
+        }
     }
 }
 
