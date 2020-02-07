@@ -7,12 +7,10 @@
             </div>
             <div class="b-chronology__container">
             <div *ngFor="let character of characters;let i = index" [ngClass]="{'b-chronology__item--impar': i % 2 != 0}" class="b-chronology__item"  >
-              
-               
-                     <!-- <img src="{{character.image}}" alt="character.name"> -->
                      <div *ngIf="character.age" class="b-chronology__box">
-                        <label for="">{{character.name}}</label>
-                        <label>{{character.age.age}}</label>
+                        <div>{{character.age.age}}</div>
+                        <div>{{character.name}}</div>
+                        <div class="b-chronology__item--img"><img src="{{character.image}}" alt="character.name"></div>
                      </div>
                
             </div>
